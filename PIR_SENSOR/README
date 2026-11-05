@@ -1,0 +1,20 @@
+# PIR Motion Detection Project
+
+## Aim
+To detect human movement using a PIR sensor.
+
+## Components Required
+- Raspberry Pi 4 Model B
+- PIR Motion Sensor
+- Red LED
+- Buzzer
+- Jumper Wires
+
+## Programming Language
+Python
+
+## Description
+This project detects motion using a PIR sensor and activates an LED and buzzer as an alert.
+
+## Result
+Motion is detected and an alert is generated.

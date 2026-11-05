@@ -1,1 +1,18 @@
+# Temperature and Humidity Sensor
 
+## Aim
+To measure temperature and humidity using DHT11 sensor.
+
+## Components Required
+- Raspberry Pi 4 Model B
+- DHT11 Temperature and Humidity Sensor
+- Jumper Wires
+
+## Programming Language
+Python
+
+## Description
+This project uses a DHT11 sensor connected to Raspberry Pi 4B to measure temperature and humidity.
+
+## Result
+Temperature and humidity values are displayed successfully.

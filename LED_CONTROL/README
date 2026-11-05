@@ -1,0 +1,12 @@
+# LED CONTROL PROJECTS
+
+## 1. Control 1 LED with Input String
+- Language: Python
+- Library: gpiozero
+- Description: Controls one LED using ON and OFF commands.
+
+## 2. Control 3 LEDs with Input String
+- Language: Python
+- Library: gpiozero
+- Description: Controls Red, Yellow and Green LEDs by selecting the colour.
+-

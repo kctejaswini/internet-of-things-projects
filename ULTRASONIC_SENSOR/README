@@ -1,1 +1,20 @@
+# Ultrasonic Sensor with LED
 
+## Aim
+To detect an object using an ultrasonic sensor
+and glow an LED when an object is detected.
+
+## Components
+- Raspberry Pi 4B
+- Ultrasonic Sensor HC-SR04
+- LED
+- Jumper Wires
+
+## Working
+The ultrasonic sensor measures the distance.
+When an object is detected within 10 cm,
+the LED glows.
+
+## Output
+LED ON - Object detected.
+LED OFF - No object within 10 cm.

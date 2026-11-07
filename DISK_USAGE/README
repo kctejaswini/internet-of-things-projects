@@ -1,0 +1,32 @@
+Disk Monitoring using PSUTIL
+
+Aim
+
+To check disk-related functions using the psutil library in Raspberry Pi.
+
+Requirements
+
+- Raspberry Pi 4B
+- Python 3
+- psutil library
+
+Description
+
+The psutil library is used to monitor disk-related information.
+
+- "psutil.disk_partitions()" checks mounted disk partitions, including device, mount point and filesystem type.
+- "psutil.disk_usage('/')" checks disk usage statistics, including total space, used space, free space and percentage used.
+
+Execution
+
+Run the program using:
+
+"python3 psutil_disk.py"
+
+Output
+
+Displays disk partitions and disk usage statistics.
+
+Conclusion
+
+Disk-related functions are successfully monitored using the psutil library.

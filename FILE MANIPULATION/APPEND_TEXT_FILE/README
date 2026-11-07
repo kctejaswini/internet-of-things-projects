@@ -1,0 +1,37 @@
+Append to a Text File using Python
+
+Aim
+
+To append new contents to an existing text file using Python.
+
+Requirements
+
+- Raspberry Pi 4B
+- Python 3
+
+Description
+
+The append mode is used to add new contents to an existing file without deleting previous contents.
+
+- "open("test.txt", "a")" opens the file in append mode.
+- "for i in range(7, 13)" generates six new lines.
+- "f.write(data)" writes the added contents into the file.
+- "f.close()" closes the file.
+
+Execution
+
+Run the program using:
+
+"python3 append_txtfile.py"
+
+To check the contents:
+
+"cat test.txt"
+
+Output
+
+The existing contents remain unchanged, and six new lines are appended.
+
+Conclusion
+
+New contents are successfully appended to an existing text file using Python.

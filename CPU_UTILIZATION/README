@@ -1,23 +1,32 @@
-# CPU Utilization Monitoring using Raspberry Pi 4B
+CPU Monitoring using PSUTIL
 
-## Aim
-To monitor CPU utilization of Raspberry Pi 4B using Python.
+Aim
 
-## Components Required
-- Raspberry Pi 4B
+To monitor CPU functions using the psutil library in Raspberry Pi.
+
+Requirements
+
+- Raspberry Pi
 - Python 3
 - psutil library
 
-## Working
-The Python program uses the psutil library
-to monitor CPU usage.
+Description
 
-It displays the CPU utilization percentage
-in the terminal.
+The psutil library is used to check CPU performance.
 
-## Output
-Displays real-time CPU usage percentage.
+- "psutil.cpu_percent(interval=1)" checks CPU usage percentage.
+- "psutil.cpu_count()" checks the number of CPU cores.
 
-## Conclusion
-CPU utilization is successfully monitored
-using Raspberry Pi 4B.
+Execution
+
+Run the program using:
+
+"python3 psutil_cpu.py"
+
+Output
+
+Displays CPU usage percentage and number of CPU cores.
+
+Conclusion
+
+CPU functions are successfully checked using the psutil library.

@@ -1,0 +1,31 @@
+# Read Text File using Python
+
+## Aim
+To read the contents of a text file using different file handling methods in Python.
+
+## Description
+This program demonstrates three methods of reading a text file:
+1. readline() - Reads one line at a time.
+2. readlines() - Reads all lines and stores them in a list.
+3. read() - Reads the entire file content as a string.
+
+## File Used
+test.txt
+
+## Execution
+Run the program using:
+
+```bash
+python3 read_txtfile.py
+```
+
+## Output
+The program displays the contents of test.txt using readline(), readlines(), and read() methods.
+
+## Concepts Used
+- Python File Handling
+- Open and Close
+- readline()
+- readlines()
+- read()
+-

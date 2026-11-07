@@ -1,0 +1,33 @@
+Text File Creation using Python
+
+Aim
+
+To create a text file using Python file handling.
+
+Requirements
+
+- Raspberry Pi 4B
+- Python 3
+
+Description
+
+The open() function is used to create and open a text file.
+
+- "open("test.txt", "w")" creates a new text file in write mode.
+- "f.close()" closes the opened file.
+
+If the file does not exist, Python creates a new file named test.txt.
+
+Execution
+
+Run the program using:
+
+"python3 make_txtfile.py"
+
+Output
+
+A new file named "test.txt" is created in the current directory.
+
+Conclusion
+
+A text file is successfully created using Python.

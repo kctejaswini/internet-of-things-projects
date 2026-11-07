@@ -1,21 +1,28 @@
-CPU Monitoring using PSUTIL
+CPU PSUTIL Monitoring using Raspberry Pi
 
 Aim
 
-To monitor CPU functions using the psutil library in Raspberry Pi.
+To monitor CPU usage and CPU count using the psutil library and control an LED using Raspberry Pi.
 
-Requirements
+Components Required
 
-- Raspberry Pi
+- Raspberry Pi 4B
+- LED
+- Resistor
+- Jumper wires
+
+Software Requirements
+
 - Python 3
 - psutil library
+- gpiozero library
 
-Description
+Working
 
-The psutil library is used to check CPU performance.
-
+- The psutil library monitors CPU usage.
 - "psutil.cpu_percent(interval=1)" checks CPU usage percentage.
-- "psutil.cpu_count()" checks the number of CPU cores.
+- "psutil.cpu_count()" displays the number of CPU cores.
+- The LED connected to GPIO 17 turns ON and OFF continuously.
 
 Execution
 
@@ -25,8 +32,13 @@ Run the program using:
 
 Output
 
-Displays CPU usage percentage and number of CPU cores.
+- LED ON
+- CPU Usage percentage
+- CPU Count
+- LED OFF
+- CPU Usage percentage
+- CPU Count
 
 Conclusion
 
-CPU functions are successfully checked using the psutil library.
+CPU utilization is monitored successfully using the psutil library, and LED blinking is controlled using Raspberry Pi.

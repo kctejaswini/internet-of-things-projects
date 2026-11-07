@@ -1,0 +1,42 @@
+Write a Text File using Python
+
+Aim
+
+To open a text file and write contents using Python.
+
+Requirements
+
+- Raspberry Pi 4B
+- Python 3
+
+Description
+
+The open() function opens test.txt in write mode.
+
+- "open("test.txt", "w")" opens the file in write mode.
+- "for i in range(1, 7)" generates six lines.
+- "f.write(data)" writes the contents into the file.
+- "f.close()" closes the file.
+
+Execution
+
+Run the program using:
+
+"python3 write_txtfile.py"
+
+To view the contents:
+
+"cat test.txt"
+
+Output
+
+Line 1
+Line 2
+Line 3
+Line 4
+Line 5
+Line 6
+
+Conclusion
+
+A text file is successfully written with six lines using Python.

@@ -1,0 +1,57 @@
+Temperature and Humidity Monitoring with LED Control
+
+Aim
+
+To monitor room temperature and humidity using ESP32 and DHT11 sensor and control a red LED through a web page.
+
+Components Required
+
+- ESP32 Development Board
+- DHT11 Sensor
+- Red LED
+- 220Ω Resistor
+- Jumper Wires
+- USB Cable
+
+Connections
+
+Component| ESP32 Pin
+DHT11 DATA| GPIO 4
+DHT11 VCC| 3.3V
+DHT11 GND| GND
+Red LED| GPIO 2
+
+Software Requirements
+
+- Arduino IDE
+- ESP32 Board Package
+- DHT Sensor Library
+- Adafruit Unified Sensor Library
+
+Working
+
+1. ESP32 connects to Wi-Fi.
+2. DHT11 measures temperature and humidity.
+3. Sensor values are displayed on a web page.
+4. The user can turn the red LED ON using the web page.
+5. The user can turn the red LED OFF using the web page.
+6. Temperature and humidity values update every 2 seconds.
+
+Features
+
+- Real-time temperature monitoring
+- Humidity monitoring
+- Red LED ON/OFF control
+- Wi-Fi-based web interface
+- Mobile phone access
+
+Applications
+
+- Smart Home Monitoring
+- Room Temperature Monitoring
+- IoT Automation
+- Smart Lighting Systems
+
+Conclusion
+
+This project demonstrates how ESP32 and DHT11 can be used to monitor temperature and humidity and control an LED remotely through a Wi-Fi-based web interface.

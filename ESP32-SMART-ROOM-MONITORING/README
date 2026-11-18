@@ -1,0 +1,70 @@
+ESP32 Smart Room Monitoring & Control Dashboard
+
+Aim
+
+To develop a smart room monitoring and control system using ESP32 and DHT11 sensor with a web-based dashboard.
+
+Components Required
+
+- ESP32 Development Board
+- DHT11 Temperature and Humidity Sensor
+- Relay Modules
+- LEDs / Lights
+- Fan
+- Jumper Wires
+- USB Cable
+
+Connections
+
+Component| ESP32 Pin
+DHT11 DATA| GPIO 4
+Light 1 Relay| GPIO 16
+Light 2 Relay| GPIO 17
+Light 3 Relay| GPIO 18
+Fan Relay| GPIO 19
+DHT11 VCC| 3.3V
+DHT11 GND| GND
+
+Software Requirements
+
+- Arduino IDE 2.3.11
+- ESP32 Board Package
+- DHT Sensor Library
+- Adafruit Unified Sensor Library
+
+Working
+
+1. ESP32 creates its own Wi-Fi network named SmartRoom.
+2. The DHT11 sensor measures room temperature and humidity.
+3. ESP32 collects the sensor readings.
+4. A web dashboard displays temperature and humidity values.
+5. Users can control three lights and one fan using the dashboard.
+6. Sensor readings are refreshed every 2 seconds.
+
+Wi-Fi Details
+
+- SSID: SmartRoom
+- Password: 12345678
+- IP Address: 192.168.4.1
+
+Output
+
+The dashboard displays:
+
+- Light 1 ON/OFF control
+- Light 2 ON/OFF control
+- Light 3 ON/OFF control
+- Fan 1 ON/OFF control
+- Room Temperature
+- Room Humidity
+
+Applications
+
+- Smart Homes
+- Room Automation
+- Smart Classrooms
+- Remote Device Monitoring
+
+Conclusion
+
+The ESP32 Smart Room Monitoring and Control Dashboard provides a simple way to monitor room temperature and humidity and control electrical devices through a mobile phone or computer using Wi-Fi.
